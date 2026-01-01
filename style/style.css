@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
+
+/* Universal Selector */
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Component/Element Selector */
+/* p{
+    text-align: center;
+} */
+
+/* ID Selector */
+/* #para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Class Selector */
+.onnoPara{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    outline: auto;
+    outline-color: blue;
+    text-align: justify;
+    
+
+}
+
+/* Group Selector */
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    word-spacing: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+    
+
+
+
+p{
+    border-top-style: dotted;
+    border-bottom-style: solid;
+    border-right-style: dashed;
+    border-left-style: inherit;
+    border
+    padding: 5%;
+    /* direction: ltr;
+    text-decoration-line: underline ;
+    text-decoration-thickness: 5px;
+    text-decoration-color: brown; */
+    font-family: "Noto Sans Bengali", sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 1.5vmax;
+
+
+
+}

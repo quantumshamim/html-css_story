@@ -1,0 +1,15 @@
+a:link, a:visited{
+    color: red;
+    padding: 3px 5px;
+    text-decoration: none;   
+    background-color: green; 
+}
+a:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+a:active{
+    color: violet;
+    text-decoration: none;
+}

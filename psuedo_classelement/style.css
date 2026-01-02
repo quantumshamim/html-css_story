@@ -1,0 +1,31 @@
+/* One Colon- PseudoClass */
+
+a:hover
+{
+        color: yellow;
+}
+
+a:active{
+    color: violet;
+}
+
+
+li:nth-child(even){
+    color: brown;
+}
+
+
+/* Two Colon- PseudoElement */
+
+body::after{
+    content: "this is psuedo element";
+}
+
+p::selection{
+    background-color: crimson;
+    color: white;
+}
+
+img{
+    opacity: 0.5;
+}

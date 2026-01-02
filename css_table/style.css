@@ -1,0 +1,29 @@
+.tablediv{
+    overflow-x: auto;
+}
+
+#customer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+#customer td, #customer th{
+    border: 1px solid #44f;
+    padding: 6px;
+}
+#customer th{
+    height: 30px;
+    vertical-align: bottom;
+    background-color: green;
+    text-align: left;
+    color: white;
+}
+#customer tr:nth-child(even){
+    background-color: #d29191;
+}
+#customer tr:hover{
+    background-color: #ddd;
+}
+#customer td{
+    text-align: center;
+}

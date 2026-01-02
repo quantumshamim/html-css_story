@@ -1,0 +1,22 @@
+/* .id{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+p{
+    text-align: justify;
+
+} */
+
+
+
+div ~ p{
+    background-color: yellow ;
+}

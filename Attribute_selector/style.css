@@ -1,0 +1,27 @@
+a[target]{
+    color: blue;
+}
+
+a[target="_blank"]{
+    color: yellow;
+}
+
+p[class~="me"]{
+    color: dimgray;
+}
+
+p[class|="you"]{
+    color: pink;
+}
+
+p[class^="you"]{
+    color: #987;
+}
+
+p[class$="they"]{
+    color: rgb(87, 139, 52);
+}
+
+p[class*="th"]{
+    color: #ca0b0b;
+}

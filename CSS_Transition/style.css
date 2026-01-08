@@ -1,0 +1,67 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: saddlebrown;
+    transition: width 2s linear 5ms;
+    margin: 10px;
+}
+.div1{
+   transition-timing-function: linear;
+}
+.div2{
+   transition-timing-function: ease;
+}
+.div3{
+   transition-timing-function: ease-in;
+}
+.div4{
+   transition-timing-function: ease-out;
+}
+.div5{
+   transition-timing-function: ease-in-out;
+}
+
+div:hover{
+    width: 300px;
+} */
+
+.div7{
+    width: 100px;
+    height: 100px;
+    background-color: orchid;
+    position: relative;
+    animation-name: demo;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes demo{
+    0%{
+        background-color: orchid;
+        left: 0px;
+        top: 0px;
+    }
+
+    25%{
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50%{
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+    75%{
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: orchid;
+        left: 0px;
+        top: 0px;
+}

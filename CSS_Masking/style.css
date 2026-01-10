@@ -1,0 +1,53 @@
+img{
+    ~webkit-mask-image: url(w3logo.png);
+    mask-image: url(w3logo.png);
+    ~webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+a{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    outline: none;
+    font-size: 30px;
+    border-radius: 04px;
+    border: 2px solid blue;
+    transition: 1s;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    cursor: not-allowed;
+    
+}
+
+.b{
+    vertical-align: middle;
+    display: inline-block;
+    background-color: chartreuse;
+    outline: none;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+}
+
+.b span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.b span::after{
+    content: "\00bb";
+    opacity: 0;
+}
+
+.b:hover span::after{
+    opacity: 1;
+}

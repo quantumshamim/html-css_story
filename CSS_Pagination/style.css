@@ -1,0 +1,34 @@
+.align{
+    text-align: center;
+}
+.page{
+    display: inline-block;
+}
+
+.page a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transform: background-color 0.3s;
+}
+
+.page a.active{
+    background-color: green;
+    color: white;
+}
+
+.page a:hover:not(.active){
+    background-color: #ddd;
+}
+
+
+
+.news p{
+    column-count: 3;
+    column-rule: 1px solid #ddd;
+}
+
+.news{
+    column-width: 400px;
+}

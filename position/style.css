@@ -1,0 +1,30 @@
+.parent{
+    position: relative;
+    height: 600vh;
+}
+
+.child-one{
+    position: relative;
+    left: 50px;
+}
+
+.child-two{
+    position: fixed;
+    left: 50px;
+}
+
+.child-three{
+    position: sticky;
+    top: 0;
+}
+
+.green{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+}
+.red{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}

@@ -1,0 +1,26 @@
+.child-one{
+    background-color: blue;
+}
+
+
+.green{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+
+.red{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 50%;
+    z-index: -1;
+    display: ;
+}

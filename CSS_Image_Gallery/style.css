@@ -1,0 +1,22 @@
+.gal{
+    display: inline-block;
+    width: 180px;
+    border: 1px solid #ccc;
+    margin: 5px;;
+}
+
+.gal:hover{
+    border: 1px solid #777;
+    background-color: #777;
+}
+
+.gal img{
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
